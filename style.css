@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire document */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Background color for the page */
+}
+
+header {
+    background-color: #333; /* Dark background color for the header */
+    color: #fff; /* White text color for the header */
+    padding: 2rem; /* Padding for the header */
+    text-align: center; /* Center-aligns the header content */
+}
+
+header p {
+    margin: 1rem 0; /* Margin for the subheading text */
+}
+
+header button {
+    background-color: #ff6347; /* Background color for the button */
+    color: #fff; /* White text color for the button */
+    border: none; /* Removes default border */
+    padding: 1rem 2rem; /* Padding for the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+#features {
+    padding: 2rem; /* Padding for the features section */
+    text-align: center; /* Center-aligns the features content */
+}
+
+.feature {
+    margin-bottom: 2rem; /* Adds margin between feature items */
+}
+
+#cta {
+    background-color: #333; /* Dark background color for the call to action section */
+    color: #fff; /* White text color for the call to action text */
+    padding: 2rem; /* Padding for the call to action section */
+    text-align: center; /* Center-aligns the call to action content */
+}
+
+#cta button {
+    background-color: #ff6347; /* Background color for the button */
+    color: #fff; /* White text color for the button */
+    border: none; /* Removes default border */
+    padding: 1rem 2rem; /* Padding for the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: #fff; /* White text color for the footer */
+    text-align: center; /* Center-aligns the footer content */
+    padding: 1rem 0; /* Padding for the footer */
+    position: fixed; /* Fixes the footer at the bottom of the page */
+    width: 100%; /* Ensures the footer spans the full width of the page */
+    bottom: 0; /* Positions the footer at the bottom */
+}
