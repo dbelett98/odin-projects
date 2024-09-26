@@ -1,16 +1,21 @@
 body {
-    font-family: Arial, sans-serif; /* Sets the font for the entire document */
+    font-family: Roboto; /* Sets the font for the entire document */
     margin: 0;
     padding: 0;
     background-color: #f4f4f4; /* Background color for the page */
+    text-decoration: none;
 }
 
 header {
-    background-color: #333; /* Dark background color for the header */
+    background-color: #1F2937; /* Dark background color for the header */
     color: #fff; /* White text color for the header */
     padding: 2rem; /* Padding for the header */
     text-align: center; /* Center-aligns the header content */
     display: flex;
+}
+
+header .logo {
+
 }
 
 header ul {
@@ -18,14 +23,17 @@ header ul {
     background-color: white;
     display: flex;
     gap: 2rem;
+    text-decoration: none;
+    justify-content: space-between;
 }
 
-header p {
-    margin: 1rem 0; /* Margin for the subheading text */
+header ul li a {
+    background-color: red;
+    text-decoration: none;
 }
 
 header button {
-    background-color: #ff6347; /* Background color for the button */
+    background-color: #3882f6; /* Background color for the button */
     color: #fff; /* White text color for the button */
     border: none; /* Removes default border */
     padding: 1rem 2rem; /* Padding for the button */
@@ -40,7 +48,7 @@ header button {
 
 
 footer {
-    background-color: #333; /* Dark background color for the footer */
+    background-color: #1F2937; /* Dark background color for the footer */
     color: #fff; /* White text color for the footer */
     text-align: center; /* Center-aligns the footer content */
     padding: 1rem 0; /* Padding for the footer */
