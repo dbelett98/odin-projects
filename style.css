@@ -39,21 +39,26 @@ header .main-heading {
     display: flex;
     justify-content: center;
     gap: 50px;
-    width: 600px;
+    width: 800px;
 }
 
-header .main-heading h2 {
+.hero-main-text {
     font-size: 48px;
     font-weight: 900;
+    background-color: aquamarine;
+    margin: 25px;
 }
 
-header .mainheading p {
+.hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    background-color: aqua;
+    margin: 25px;
 }
 
 header .heading-image {
     background-color: lightgrey;
+    margin: 25px;
 }
 
 header ul {
@@ -74,11 +79,12 @@ header ul li a {
 }
 
 header button {
-    background-color: #3882f6; 
+    background-color: #3c485a; 
     color: #fff;
     border: none; 
     padding: 1rem 2rem; 
     cursor: pointer; 
+    margin: 25px;
 }
 
 
