@@ -21,12 +21,27 @@ header .logo {
     font-weight: 900;
     font-size: 24px;
     color: #f9faf8;
+    display: flex;
 }
 
 header .main-heading {
     background-color: #3882f6;
+    margin-top: 2rem;
 }
 
+header .main-heading h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+header .mainheading p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header .heading-image {
+    background-color: lightgrey;
+}
 
 header ul {
     list-style-type: none;
@@ -40,6 +55,8 @@ header ul {
 header ul li a {
     background-color: red;
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 header button {
