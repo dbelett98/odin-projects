@@ -1,22 +1,32 @@
 body {
-    font-family: Roboto; /* Sets the font for the entire document */
+    font-family: Roboto; 
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Background color for the page */
+    background-color: #f4f4f4;
     text-decoration: none;
 }
 
+
+
+/* Header Code */
 header {
-    background-color: #1F2937; /* Dark background color for the header */
-    color: #fff; /* White text color for the header */
-    padding: 2rem; /* Padding for the header */
-    text-align: center; /* Center-aligns the header content */
+    background-color: #1F2937; 
+    color: #fff; 
+    padding: 2rem; 
     display: flex;
 }
 
 header .logo {
-
+    background-color: hotpink;
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9faf8;
 }
+
+header .main-heading {
+    background-color: #3882f6;
+}
+
 
 header ul {
     list-style-type: none;
@@ -33,11 +43,11 @@ header ul li a {
 }
 
 header button {
-    background-color: #3882f6; /* Background color for the button */
-    color: #fff; /* White text color for the button */
-    border: none; /* Removes default border */
-    padding: 1rem 2rem; /* Padding for the button */
-    cursor: pointer; /* Changes cursor to pointer on hover */
+    background-color: #3882f6; 
+    color: #fff;
+    border: none; 
+    padding: 1rem 2rem; 
+    cursor: pointer; 
 }
 
 
