@@ -14,14 +14,23 @@ header {
     color: #fff; 
     padding: 2rem; 
     display: flex;
+
 }
 
+header nav {
+    background-color: antiquewhite;
+    display: flex;
+    margin-bottom: 10rem;
+    width: 100%;
+    height: 20%;
+}
 header .logo {
     background-color: hotpink;
     font-weight: 900;
     font-size: 24px;
     color: #f9faf8;
     display: flex;
+   
 }
 
 header .main-heading {
