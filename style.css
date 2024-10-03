@@ -6,6 +6,26 @@ body {
     text-decoration: none;
 }
 
+main {
+    flex: 1;
+}
+
+/* Ensure that the main content area pushes the footer down */
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+}
+
+/* Main content area */
+main {
+    flex: 1; /* Allows the main content to take up available space */
+}
 
 
 /* Header Code */
@@ -151,17 +171,14 @@ button {
 
 
 
-
-
-
+/* Footer styles */
 footer {
-    background-color: #1F2937; /* Dark background color for the footer */
-    color: #fff; /* White text color for the footer */
-    text-align: center; /* Center-aligns the footer content */
-    padding: 1rem 0; /* Padding for the footer */
-    width: 100%; /* Ensures the footer spans the full width of the page */
-    bottom: 0; /* Positions the footer at the bottom */
-    margin-top: 3rem;
-    position: fixed;
+    background-color: #1F2937;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    position: relative; /* Normal flow for the footer */
+    margin-top: 6rem; /* Ensures the footer is at the bottom of the content */
 }
 
