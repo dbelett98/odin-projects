@@ -40,6 +40,7 @@ header ul li a {
     color: #E5E7EB;
 }
 
+
 header .logo {
     font-weight: 900;
     font-size: 24px;
@@ -50,11 +51,10 @@ header .logo {
 
 header .main-heading {
     background-color: #3882f6;
-    margin-top: 2rem;
     display: flex;
-    justify-content: center;
-    gap: 50px;
-    width: 800px;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center
 }
 
 .hero-main-text {
