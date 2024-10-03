@@ -11,10 +11,10 @@ body {
 /* Header Code */
 header {
     background-color: #1F2937; 
-    color: #fff; 
+    color: #fff;
     padding: 2rem; 
     display: flex;
-
+    flex-direction: column; /* Added to stack header elements vertically, this is important!! */
 }
 
 header nav {
@@ -61,6 +61,13 @@ header .heading-image {
     margin: 25px;
 }
 
+
+.header-link {
+    display: flex;
+    border: 2px red;
+    border-style: solid;
+    justify-content: space-between;
+}
 header ul {
     list-style-type: none;
     background-color: white;
@@ -68,7 +75,6 @@ header ul {
     gap: 2rem;
     text-decoration: none;
     justify-content: space-between;
-    
 }
 
 header ul li a {
