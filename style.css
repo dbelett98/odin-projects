@@ -18,12 +18,28 @@ header {
 }
 
 header nav {
-    background-color: antiquewhite;
     display: flex;
     margin-bottom: 10rem;
     width: 100%;
     height: 20%;
+    justify-content: space-between; /*  puts nav links on right side of header */
+    margin-bottom: 2rem; /* makes the object below come closer instead of being a continent away */
 }
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 header .logo {
     background-color: hotpink;
     font-weight: 900;
@@ -59,29 +75,6 @@ header .main-heading {
 header .heading-image {
     background-color: lightgrey;
     margin: 25px;
-}
-
-
-.header-link {
-    display: flex;
-    border: 2px red;
-    border-style: solid;
-    justify-content: space-between;
-}
-header ul {
-    list-style-type: none;
-    background-color: white;
-    display: flex;
-    gap: 2rem;
-    text-decoration: none;
-    justify-content: space-between;
-}
-
-header ul li a {
-    background-color: red;
-    text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 header button {
