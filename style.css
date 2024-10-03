@@ -169,7 +169,22 @@ button {
 }
 
 
+/* Quote Section */
+.quote{
+    background-color: #E5E7EB;
+}
 
+.quote h5 {
+    font-size: medium;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
 
 /* Footer  */
 footer {
