@@ -111,8 +111,8 @@ footer {
     color: #fff; /* White text color for the footer */
     text-align: center; /* Center-aligns the footer content */
     padding: 1rem 0; /* Padding for the footer */
-    position: fixed; /* Fixes the footer at the bottom of the page */
     width: 100%; /* Ensures the footer spans the full width of the page */
     bottom: 0; /* Positions the footer at the bottom */
+    margin-top: 6rem;
 }
 
