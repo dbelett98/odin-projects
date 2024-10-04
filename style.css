@@ -170,21 +170,33 @@ button {
 
 
 /* Quote Section */
-.quote{
+.quote {
     background-color: #E5E7EB;
+    padding: 2rem;
+    text-align: center;
 }
 
 .quote h5 {
-    font-size: medium;
+    font-size: 1.2rem;
     font-style: light italic;
     color: #1F2937;
+    display: flex;
+    justify-content: right;
+    margin-top: 0;
+    margin-right: 15rem;
 }
 
 .quote p {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
-    color: #1F2937;
+    color: #5c6169;
+    padding-top: 4rem;
+    margin: auto;
+    width: 60%;
+    text-align: justify;
 }
+
+
 
 /* Footer  */
 footer {
