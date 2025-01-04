@@ -22,16 +22,16 @@
     }
   }
   
-  
+  //reset button + prompt for user to select grid size after clicking on reset button
   const resetButton = document.getElementById('reset-button');
 
   resetButton.addEventListener('click', () => {
-    let newSize = prompt('Enter new grid size (max 100):');
+    let newSize = prompt('Enter new grid size (max 100):'); //ask user for new grid size
     if (newSize !== null) {
       newSize = parseInt(newSize);
       if (newSize > 0 && newSize <= 100) {
         gridSize = newSize;
-        createGrid(gridSize);
+        createGrid(gridSize); //generate new grid based on user input
       } else {
         alert('Please enter a number between 1 and 100.');
       }
