@@ -35,14 +35,14 @@ function createGrid(size) {
     container.appendChild(square);
   }
 }
-
+// Random color
 function getRandomRGB() {
   const r = Math.floor(Math.random() * 256);
   const g = Math.floor(Math.random() * 256);
   const b = Math.floor(Math.random() * 256);
   return `rgb(${r}, ${g}, ${b})`;
 }
-
+// Function to darken color
 function shadeColor(color, percent) {
   const f = color.slice(4, -1).split(',').map(Number);
   const t = 0;

@@ -1,22 +1,45 @@
 
-  body {
+body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
-  }
+    background-color: #f0f0f0;
+}
 
-  #container { /*square container with fixed width/height*/
+#container { /*square container with fixed width/height*/
     margin: 20px auto;
     display: flex; 
     flex-wrap: wrap; /*display + flex-wrap allows squares to wrap onto new lines*/
     width: 960px;
     height: 960px;
     border: 1px solid #ccc;
-  }
+}
 
-  .grid-square { /* each square will adjust its size based on number of squares per side*/
+.grid-square { /* each square will adjust its size based on number of squares per side*/
     flex: 1 0 auto;
     box-sizing: border-box;
     border: 1px solid #f0f0f0;
-  }
+    
+}
+
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#reset-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#container {
+  border: 2px solid #333;
+}
+
+.grid-square {
+  border: 1px solid #e0e0e0;
+}
+
 
